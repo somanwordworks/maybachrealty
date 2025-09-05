@@ -1,0 +1,41 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --bg-pattern: radial-gradient(circle at 25% 25%, rgba(255,255,255,.08), transparent 40%), radial-gradient(circle at 75% 75%, rgba(0,0,0,.08), transparent 40%);
+}
+
+/* Base body styles */
+html,
+body {
+    @apply bg-white text-charcoal font-body;
+    position: relative;
+    z-index: 0;
+    background-image: var(--bg-pattern);
+    background-repeat: repeat;
+    background-position: top left;
+    background-attachment: scroll;
+}
+
+/* 🔹 Smooth scroll + padding so fixed header doesn't hide sections */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* adjust based on header height */
+}
+
+/* 🔹 Watermark overlay */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: url('/watermark-towers.png') no-repeat center center;
+    background-size: 600px auto; /* adjust size here */
+    opacity: 0.07; /* subtle transparency */
+    pointer-events: none; /* don’t block clicks */
+    z-index: -1; /* stay behind content */
+}
+
+.section {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12;
+}

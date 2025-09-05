@@ -1,0 +1,38 @@
+﻿[
+  {
+    "id": "apt-1201",
+    "title": "Skyline Apartment 1201",
+    "type": "Apartment",
+    "status": "For Sale",
+    "price": "₹ 1.25 Cr",
+    "beds": 3,
+    "baths": 3,
+    "area": "1,650 sq.ft",
+    "locality": "Gachibowli",
+    "image": "https://source.unsplash.com/800x500/?hyderabad,apartment,highrise&sig=1"
+  },
+  {
+    "id": "villa-elite",
+    "title": "Elite Garden Villa",
+    "type": "Villa",
+    "status": "For Sale",
+    "price": "₹ 5.20 Cr",
+    "beds": 4,
+    "baths": 5,
+    "area": "4,200 sq.ft",
+    "locality": "Kokapet",
+    "image": "https://source.unsplash.com/800x500/?hyderabad,villa,gated-community&sig=2"
+  },
+  {
+    "id": "ofc-parkview",
+    "title": "Parkview Office Suite",
+    "type": "Office",
+    "status": "For Rent",
+    "price": "₹ 2.1 L / mo",
+    "beds": 0,
+    "baths": 2,
+    "area": "2,000 sq.ft",
+    "locality": "HITEC City",
+    "image": "https://source.unsplash.com/800x500/?hyderabad,office,commercial-building&sig=3"
+  }
+]
