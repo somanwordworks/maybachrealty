@@ -14,7 +14,7 @@
             <div
               className="opacity-40 mt-1"
               style={{
-                fontFamily: 'Versailles',
+                  fontFamily: 'BankGothicLtBTLight',
                 letterSpacing: '0.16em',
                 textTransform: 'uppercase'
               }}

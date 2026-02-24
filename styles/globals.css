@@ -39,3 +39,10 @@ body::before {
 .section {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12;
 }
+
+@font-face {
+    font-family: 'BankGothicLtBTLight';
+    src: url('/font/BankGothicLtBTLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

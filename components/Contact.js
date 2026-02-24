@@ -9,11 +9,11 @@ export default function Contact(){
           <h2 className="font-heading text-3xl font-semibold">Let's Talk</h2>
           <p className="text-mid mt-2">Tell us what you're looking for and we'll share a curated list.</p>
           <div className="mt-6 space-y-2 text-sm">
-                      <div><strong>Call:</strong> +91 8886688888 </div>
+                      <div><strong>Call:</strong> +91 7799277777 </div>
             <div><strong>Email:</strong> hello@maybachrealty.com</div>
             <div><strong>Address:</strong> Financial District, Hyderabad</div>
           </div>
-          <a href="https://wa.me/918886688888" target="_blank" className="inline-block mt-4 px-4 py-2 rounded-md border border-primary-600 text-primary-600 hover:bg-primary-600 hover:text-white transition">Chat on WhatsApp</a>
+          <a href="https://wa.me/917799277777" target="_blank" className="inline-block mt-4 px-4 py-2 rounded-md border border-primary-600 text-primary-600 hover:bg-primary-600 hover:text-white transition">Chat on WhatsApp</a>
         </div>
         <form onSubmit={onSubmit} className="rounded-lg border p-6 bg-white">
           {sent ? <div className="text-green-700">Thanks! We'll get back to you shortly.</div> : <>
